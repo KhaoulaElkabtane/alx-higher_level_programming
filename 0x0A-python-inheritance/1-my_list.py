@@ -2,6 +2,7 @@
 """ Defines a class My list"""
 
 class MyList(list):
+    """a subclass of list"""
     def __init__(self):
         """Initializes a new instance of My list"""
         super().__init__()
