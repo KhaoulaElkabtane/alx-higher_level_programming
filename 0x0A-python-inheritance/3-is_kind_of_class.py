@@ -2,6 +2,5 @@
 """Define a function, is_king_of_class,"""
 
 def is_kind_of_class(obj, a_class):
-    """Return true if is instance of, or is an instance of a class
-    that inherited from"""
+    """Determines if an object is a subclass of a class."""
     return isinstance(obj, a_class)
