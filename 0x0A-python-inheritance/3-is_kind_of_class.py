@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 """Define a function, is_king_of_class,"""
 
 def is_kind_of_class(obj, a_class):
