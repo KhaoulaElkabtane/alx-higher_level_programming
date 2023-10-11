@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-"""
-Contains the class MyInt
-"""
+"""Contains the class MyInt"""
+
 
 class MyInt(int):
     """Rebel version of an integer, perfect for opposite day!"""
@@ -16,4 +15,3 @@ class MyInt(int):
     def __ne__(self, other):
         """What was == is now !="""
         return int(self) == other
-
